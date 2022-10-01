@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    text-align: center;
+}
+
+.topo {
+	text-align: center;
+	color: #bbb;
+}
+
+.logo {
+	width: 15%;
+	border-radius: 10cm;
+    
+}
+ #itens{
+    color: #bbb;
+ }
+ #total{
+    color: #bbb;
+ }
+ .total {
+    color: #bbb;
+ }
+
+
+
+

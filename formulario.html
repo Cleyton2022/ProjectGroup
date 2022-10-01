@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D&J Modas</title>
+    <link rel="icon" href="./img/Icone.jpeg">
+    <link rel="stylesheet" href="./css/formulario.css">
+        </head>
+        <body>
+
+          <div class="topnav">
+
+
+            <div class="topnav-centered">
+                <a href="index.html">Início</a>
+            </div>
+    
+    
+            <a href="Produtos.html">Produtos</a>
+            <a href="Quem somos nós.html">Quem Somos Nós</a>
+    
+            <div class="topnav-right">
+                <a href="equipe.html">Equipe</a>
+                <a href="formulario.html" class="active">Contato</a>
+            </div>
+          </div>
+
+
+        <div class="topo">
+        <h2>CONTATE-NOS</h2>
+        <img class="logo" src="./img/Icone.jpeg" alt="">
+        <h1>Nossas Redes Sociais</h1>
+        </div>
+
+        <div class="row">
+          <div class="column">
+              <div class="card">
+                  <img src="./img/instagram perfil.png" alt="roupas" style="width:100%">
+                  <div class="container">
+                      <h2>Instagram</h2>
+                      <a id="social" href="https://instagram.com/dejmodasrj?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener noreferrer"><img src="./img/Instagram-Icon.png" alt=""> </a>
+                  </div>
+              </div>
+          </div>
+
+          <div class="column">
+              <div class="card">
+                  <img src="./img/Whatsapp perfil.png" alt="roupas" style="width:100%">
+                  <div class="container">
+                      <h2>Whatsapp</h2>
+                    <a id="social" href="https://api.whatsapp.com/send?phone=5521990806925" target="_blank" rel="noopener noreferrer"><img src="./img/whatsapp-logo-1.png" alt=""></a>
+
+                  
+                  </div>
+              </div>
+          </div>
+        </div>
+        <div class="topo">
+          <h1>Formulario de Feedback</h1>
+        </div>
+
+
+        <div class="containe">
+          <form id="form" action="https://api.staticforms.xyz/submit" method="post">
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">Nome:</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="firstname" placeholder="Seu nome.." required >
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Sobrenome:</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="lastname" placeholder="Seu sobrenome...(opcional)" >
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="email">Email:</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="Email" name="Email" placeholder="Digite seu email" required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="Feedback">Feedback:</label>
+            </div>
+            <div class="col-75">
+              <select id="Feedback" name="Feedback">
+                <option value="Melhorias">Melhorias</option>
+                <option value="Reclamações">Reclamações</option>
+                <option value="Ideias">Ideias</option>
+                <option value="Pedidos">Pedidos</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Mensagem:</label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="subject" placeholder="Escreva Seu Feedback.." required  style="height:200px"></textarea>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <input type="submit" onclick="Enviar();" value="Enviar">
+          </div>
+
+
+
+          <input type="hidden" name="accessKey" value="0d87bb49-71cc-40b7-85bf-11084ee827a6">
+          <input type="hidden" name="redirectTo" value="https://leonlima1.github.io/Trabalho-em-grupo/index.html"> 
+          </form>
+        </div>
+
+        <div class="footer">
+          <p> Todos os Direitos Reservados &copy 2022 Alunos SENAC</p>
+      </div>
+
+
+       <script src="./js/formulario.js"></script>
+        </body>
+        </html>
+        

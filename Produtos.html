@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D&J Modas</title>
+    <link rel="icon" href="img/Icone.jpeg">
+    <link rel="stylesheet" href="./css/Produtos.css">
+</head>
+<body>
+     <!--MENU-->
+    <!-- Top navigation -->
+    <div class="topnav">
+
+
+        <div class="topnav-centered">
+            <a href="index.html" >Início</a>
+        </div>
+
+
+        <a href="Produtos.html" class="active">Produtos</a>
+        <a href="Quem somos nós.html">Quem Somos Nós</a>
+
+        <div class="topnav-right">
+            <a href="equipe.html">Equipe</a>
+            <a href="formulario.html">Contato</a>
+        </div>
+    </div>
+    <!--FIM MENU-->
+    <!-- linha Divisoria decorativa-->
+    <div class="topo">
+        <h1> Simule a sua compra</h1>
+        <img class="logo" src="./img/Icone.jpeg" alt="">
+        <p>Escolha os seus produtos!</p>
+
+    </div>
+    <div class="Bermudas">
+        <h1>Bermudas Jeans</h1>
+    </div>
+    
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <img src="./img/bermuda01.jpeg" alt="roupas" style="width:100%">
+                <div class="container">
+                    <h2>Bermuda Jeans</h2>
+                    <p class="title">Azul Escuro &amp; bolinhas brancas</p>
+                    <p>Somente Hoje</p>
+                    <p id="preco">R$ 90,00</p>
+                    qtd: <input type="number" value="1" min="1" max="10" id="qtd1">
+                    <p><button class="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Jeans bolinhas', document.getElementById('qtd1').value, '90.00', 1)">COMPRAR</button></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="./img/bermuda02.jpeg" alt="roupas" style="width:100%">
+                <div class="container">
+                    <h2>Bermuda Jeans</h2>
+                    <p class="title">Azul Claro</p>
+                    <p>COMPRE HOJE e GANHE o cinto de BRINDE</p>
+                    <p id="preco">R$ 99,90</p>
+                    qtd: <input type="number" value="1" min="1" max="10" id="qtd2">
+                    <p><button class="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Jeans Azul Claro', document.getElementById('qtd2').value, '99.90', 2)">COMPRAR</button></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="./img/bermuda03.jpeg" alt="roupas" style="width:100%">
+                <div class="container">
+                    <h2>bermuda Jeans</h2>
+                    <p class="title">Bermuda &amp; cinto detalhe animal print</p>
+                    <p>Cor Preta (outras cores entrar em contato)</p>
+                    <p id="preco">R$ 99,90</p>
+                    qtd: <input type="number" value="1" min="1" max="10" id="qtd3">
+                    <p><button class="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Jeans cinto preto', document.getElementById('qtd3').value, '99.90', 3)">COMPRAR</button></p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="column">
+            <div class="card">
+                <img src="./img/Bermuda 4.png" alt="roupas" style="width:100%">
+                <div class="container">
+                    <h2>Bermuda Jeans</h2>
+                    <p class="title">Bermuda &amp; Detalhe tropical
+                    </p>
+                    <p>(outras cores entrar em contato)</p>
+                    <p id="preco">R$ 90,00</p>
+                    qtd: <input type="number" value="1" min="1" max="10" id="qtd4">
+                    <p><button class="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Jeans tropical', document.getElementById('qtd4').value, '90.00', 4)">COMPRAR</button></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Bermudas">
+        <h1>Looks Prontos</h1>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <img src="./img/conjunto03.jpeg" alt="roupas" style="width:100%">
+                <div class="container">
+                    <h2>Conjuto Dia</h2>
+                    <p class="title">Bermuda &amp; Blusa Rosa</p>
+                    <p>Somente Hoje</p>
+                    <p id="preco">R$ 149,00</p>
+                    qtd: <input type="number" value="1" min="1" max="10" id="qtd5">
+                    <p><button class="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Conjunto Dia', document.getElementById('qtd5').value, '149,00', 5)">COMPRAR</button></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="./img/conjunto02.jpeg" alt="roupas" style="width:100%">
+                <div class="container">
+                    <h2>Conjunto Noite</h2>
+                    <p class="title">Bermuda preta &amp; Blusa preta brilhante </p>
+                    <p>Promoção</p>
+                    <p id="preco">R$ 149,90</p>
+                    qtd: <input type="number" value="1" min="1" max="10" id="qtd6">
+                    <p><button class="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Conjunto Noite', document.getElementById('qtd6').value, '149.90', 6)">COMPRAR</button></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="./img/conjunto01.jpeg" alt="roupas" style="width:100%">
+                <div class="container">
+                    <h2>Vestido</h2>
+                    <p class="title">Saindo Muito</p>
+                    <p>Cor Preta (outras cores entrar em contato)</p>
+                    <p id="preco">R$ 160,00</p>
+                    qtd: <input type="number" value="1" min="1" max="10" id="qtd7">
+                    <p><button class="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Vestido Preto', document.getElementById('qtd7').value, '160.00', 7)">COMPRAR</button></p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="column">
+            <div class="card">
+                <img src="./img/conjunto04.png" alt="roupas" style="width:100%">
+                <div class="container">
+                    <h2>Macacão</h2>
+                    <p class="title">Se ajustando bem ao corpo</p>
+                    <p>Cor Preta (outras cores entrar em contato)</p>
+                    <p id="preco">R$ 145,00</p>
+                    qtd: <input type="number" value="1" min="1" max="10" id="qtd8">
+                    <p><button class="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Macacão Preto', document.getElementById('qtd8').value, '145.00', 8)">COMPRAR</button></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="carrinho">
+        <h1>Clique no carrinho após adicionar tudo!</h1>
+        <a href="Carrinho.html"> <img src="./img/carrinho.png" alt=""> </a>
+    </div>
+
+
+
+
+
+
+
+        <div class="footer">
+            <p> Todos os Direitos Reservados &copy 2022 Alunos SENAC</p>
+        </div>
+
+<script src="./js/Produtos.js"></script>
+</body>
+</html>

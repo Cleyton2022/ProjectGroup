@@ -1,0 +1,197 @@
+body{
+	background-color: rgb(0, 0, 0);
+	color: #ddd;
+}
+.body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	width: 100vw;
+	justify-content: center;
+	
+}
+
+
+.topnav {
+	position: relative;
+	background-color: #333;
+	overflow: hidden;
+}
+
+
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+
+.topnav a.active {
+	background-color: #8b6600;
+	color: white;
+}
+
+
+.topnav-centered a {
+	float: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+.topnav-right {
+	float: right;
+}
+
+@media screen and (max-width: 600px) {
+
+	.topnav a,
+	.topnav-right {
+		float: none;
+		display: block;
+	}
+
+	.topnav-centered a {
+		position: relative;
+		top: 0;
+		left: 0;
+		transform: none;
+	}
+}
+
+.topo {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.topo img{
+    width: 15%;
+	border-radius: 10cm;
+
+
+}
+
+.container {
+	display: flex;
+    
+}
+
+.container div{
+	text-align: center;
+	height:100%;
+    width: 50%;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: larger;
+	
+
+	
+	
+}
+
+.feedback {
+	background-color: #8b6600;
+	margin: 50px;
+	padding: 40px;
+	border-radius: 2cm;
+
+}
+.historia {
+	background-color: #8b6600;
+	margin: 50px;
+	padding: 40px;
+	border-radius: 2cm;
+}
+
+@media screen and (max-width: 650px) {
+	.container {
+		width: 100%;
+		display: inline-block;
+	}
+}
+
+
+
+.loja {
+	text-align: center;
+	margin: 50px;
+	padding: 40px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: x-large;
+	
+}
+
+.mapa-responsivo {
+	overflow:hidden;
+
+    padding-bottom:3%;
+
+    position:relative;
+
+    height:0;
+}
+.mapa-responsivo{
+	left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+	position: relative;
+	justify-content: center;
+	background-color:  #333;
+	height: 40px;
+	padding: 5px;
+}
+
+.footer p {
+	text-align: center;
+	color: white;
+	font-family: 'Times New Roman', Times, serif;
+}
+
